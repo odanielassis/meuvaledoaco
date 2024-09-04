@@ -1,6 +1,6 @@
 # meuvaledoaco
 
-![Capa do Projeto](Imagens/Ipatinga/espaco-externo-buoni.jpg)
+![Capa do Projeto](Gifs/home.gif)
 
 ## Descrição do Projeto
 
@@ -19,16 +19,18 @@ O **Meu Vale do Aço** é uma plataforma web desenvolvida para catalogar e apres
 ## Demonstração
 
 ### Página Inicial (Landing Page)
-![Landing Page](Imagens/demonstracao/landing_page.png)
+![Landing Page](Gifs/landing.gif)
 
 ### Página de Cadastro
-![Página de Cadastro](Imagens/demonstracao/cadastro.png)
+![Página de Cadastro](Gifs/cadastro.gif)
 
 ### Página de Login
-![Página de Login](Imagens/demonstracao/login.png)
+![Página de Login](Gifs/login.png)
 
 ### Página Inicial (Home)
-![Página Home](Imagens/demonstracao/home.png)
+![Página Home](Gifs/home.gif)
 
 ### Página de Listagem de Restaurantes
-![Página de Restaurantes](Imagens/demonstracao/restaurantes.png)
+![Página de Restaurantes (Fabriciano)](Gifs/fabri.gif)
+![Página de Restaurantes (Timóteo)](Gifs/timoteo.gif)
+![Página de Restaurantes (Ipatinga)](Gifs/ipatinga.gif)
