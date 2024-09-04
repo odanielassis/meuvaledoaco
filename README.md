@@ -1,6 +1,6 @@
 # meuvaledoaco
 
-![Capa do Projeto](Imagens/capa_projeto.jpg)
+![Capa do Projeto](Imagens/Ipatinga/espaco-externo-buoni.jpg)
 
 ## Descrição do Projeto
 
