@@ -37,7 +37,7 @@ body {
 }
 
 .header nav ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -49,7 +49,7 @@ body {
 /* Hero Section */
 .hero {
   background: url('Imagens/hero-background.jpg') no-repeat center center/cover;
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding: 80px 20px;
 }

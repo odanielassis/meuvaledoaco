@@ -27,5 +27,8 @@ O **Meu Vale do Aço** é uma plataforma web desenvolvida para catalogar e apres
 ### Página de Login
 ![Página de Login](Imagens/demonstracao/login.png)
 
+### Página Inicial (Home)
+![Página Home](Imagens/demonstracao/home.png)
+
 ### Página de Listagem de Restaurantes
 ![Página de Restaurantes](Imagens/demonstracao/restaurantes.png)
