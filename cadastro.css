@@ -1,0 +1,92 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+select {
+  appearance: none; /* Remove estilo padrão de seleção */
+  padding-right: 30px; /* Espaço para seta */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23343a40"><path fill-rule="evenodd" d="M6.293 8.293a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414zM6 12a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+button, input[type="submit"] {
+  background-color: #343a40;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.link-login {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link-login a {
+  color: #007bff;
+  text-decoration: none;
+}

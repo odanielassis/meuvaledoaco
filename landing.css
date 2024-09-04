@@ -1,0 +1,150 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('Imagens/hero-background.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Sobre Nós */
+.about {
+  padding: 40px 20px;
+  background-color: #e9ecef;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* Cidades em Destaque */
+.cities-highlight {
+  padding: 40px 20px;
+}
+
+.cities-highlight .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cities-highlight h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.city {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+}
+
+.city img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.city h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+.city p {
+  padding: 0 15px 20px;
+  color: #666;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

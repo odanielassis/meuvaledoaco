@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MVA - Meu Vale do Aço</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="home.js" defer></script>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <h1><i class="bi bi-geo-fill"></i> Meu Vale do Aço</h1>
+    </div>
+  </header>
+
+  <!-- Seção de Boas-vindas -->
+  <section id="welcome-message"></section>
+
+  <!-- Coronel Fabriciano -->
+  <section class="city-section">
+    <div class="container">
+      <h1>Coronel Fabriciano</h1>
+      <p>
+        Coronel Fabriciano teve origem com o movimento de tropeiros e a industrialização impulsionou sua emancipação em 1948.
+        Contudo, na década de 60, perdeu importância industrial para Ipatinga e Timóteo.
+        A cidade preserva tradições culturais e atrativos naturais, como a Serra do Cocais.
+      </p>
+      <img src="Imagens/Fabriciano/fabri.jpg" alt="Foto da cidade de Coronel Fabriciano">
+      <div class="button-container">
+        <a href="Fabri.html" class="btn btn-primary">Visualizar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ipatinga -->
+  <section class="city-section">
+    <div class="container">
+      <h1>Ipatinga</h1>
+      <p>
+        Ipatinga é a cidade mais populosa do Vale do Aço. Fundada em 1964, mantém sua importância como empregadora,
+        contribuindo com mais de 60% do PIB da região, enquanto preserva tradições culturais e oferece atrativos recreativos,
+        como o Parque Ipanema e o Centro Cultural Usiminas.
+      </p>
+      <img src="Imagens/Ipatinga/ipatinga.jpg" alt="Foto da cidade de Ipatinga">
+      <div class="button-container">
+        <a href="Ipatinga.html" class="btn btn-primary">Visualizar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timóteo -->
+  <section class="city-section">
+    <div class="container">
+      <h1>Timóteo</h1>
+      <p>
+        Timóteo, emancipada também em 1964, se desenvolveu principalmente em torno da produção e comercialização de aço,
+        mantendo este setor industrial como fonte principal de renda da cidade.
+        Destaca-se por seu patrimônio cultural e ambiental, incluindo o Parque Estadual do Rio Doce.
+      </p>
+      <img src="Imagens/Timoteo/timoteo.JPG" alt="Foto da cidade de Timóteo">
+      <div class="button-container">
+        <a href="Timoteo.html" class="btn btn-primary">Visualizar</a>
+      </div>
+    </div>
+  </section>
+
+      <!-- Seção de vídeo -->
+      <section class="video-section container">
+        <h2>Conheça o Vale do Aço</h2>
+        <video width="600" controls>
+            <source src="Imagens/vale_do_aco.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+      </section>
+
+      <!-- Seção de progresso -->
+      <section class="progress-section container">
+        <h2>Progresso de desenvolvimento do site</h2>
+        <progress value="70" max="100"></progress>
+      </section>
+
+      <!-- Seção de inputs -->
+      <section class="input-section container">
+        <h2>Escolha a data do seu próximo evento</h2>
+        <input type="date">
+        <input type="month">
+        <input type="range" min="1" max="100" value="50">
+      </section>
+
+      <!-- Seção de diálogo -->
+      <section class="dialog-section container">
+        <h2>Informações Importantes</h2>
+        <button id="openDialog">Clique para abrir o diálogo</button>
+        <dialog id="infoDialog">
+            <p>Este é um diálogo interativo.</p>
+            <button id="closeDialog">Fechar</button>
+        </dialog>
+      </section>
+
+      <script>
+        document.getElementById('openDialog').addEventListener('click', function() {
+            document.getElementById('infoDialog').showModal();
+        });
+
+        document.getElementById('closeDialog').addEventListener('click', function() {
+            document.getElementById('infoDialog').close();
+        });
+      </script>
+      </body>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>Quer divulgar seu estabelecimento comercial? <a href="https://api.whatsapp.com/send/?phone=5531975193759&text=Tenho+interesse+em+divulgar+meu+estabelecimento+comercial&type=phone_number&app_absent=0" target="_blank">Entre em contato!</a></p>
+      <p><a href="#">Voltar ao Topo</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuário</title>
+  <link rel="stylesheet" href="cadastro.css">
+  <script src="cadastro.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Cadastre-se</h1>
+    <form id="cadastroForm">
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+      </div>
+      <div class="form-group">
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+      </div>
+      <div class="form-group">
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+          <option value="" selected disabled>Selecione o país</option>
+          <option value="brasil">Brasil</option>
+          <option value="portugal">Portugal</option>
+          <option value="eua">Estados Unidos</option>
+          <option value="franca">França</option>
+          <option value="italia">Itália</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="termos">
+          <input type="checkbox" id="termos" name="termos" required>
+          Concordo com os termos de serviço
+        </label>
+      </div>
+      <input type="submit" value="Cadastrar"></input>
+      <p class="link-login">Já tem uma conta? <a href="login.html">Entre aqui</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
